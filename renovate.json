@@ -1,7 +1,8 @@
 {
   "extends": [
     "config:base",
-    ":semanticCommitScope({{packageFileDir}})",
+    ":semanticCommitType(fnord)",
+    ":semanticCommitScope({{baseDir}})",
     ":semanticCommits"
   ],
   "packageRules": [
