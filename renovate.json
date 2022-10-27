@@ -6,7 +6,8 @@
     {
       "additionalBranchPrefix": "{{baseDir}}-",
       "matchPackagePatterns": [".*"],
-      "semanticCommitScope": "{{baseDir}}"
+      "semanticCommitScope": "{{baseDir}}",
+      "semanticCommits": "enabled"
     }
   ]
 }
