@@ -2,12 +2,12 @@
   "extends": [
     "config:base"
   ],
+  "semanticCommitScope": "{{baseDir}}",
+  "semanticCommits": "enabled",
   "packageRules": [
     {
       "additionalBranchPrefix": "{{baseDir}}-",
-      "matchPackagePatterns": [".*"],
-      "semanticCommitScope": "{{parentDir}}",
-      "semanticCommits": "enabled"
+      "matchPackagePatterns": [".*"]
     }
   ]
 }
